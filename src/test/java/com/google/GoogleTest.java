@@ -13,17 +13,18 @@ public class GoogleTest {
         WebDriver driver = new ChromeDriver();
 
         //deschidem pagina care trebuie testata
-        String url = "https://google.com/";
+        String url = "https://www.google.com/";
         driver.get(url);
-        System.out.println("Opening google.com page...");
+        System.out.println("Opening www.google.com page...");
 
         //maximizare fereastra
         driver.manage().window().maximize();
         System.out.println("Maximizeaza fereastra...");
 
         // verific pe ce pagina sunt
-        //Assert.assertEquals(driver.getCurrentUrl(),url); // returneaza url-ul curent din chrome
-        Assert.assertEquals("https://google.com/",url);
+        System.out.println("Adresa web curenta e: " + driver.getCurrentUrl());
+        Assert.assertEquals(driver.getCurrentUrl(),url); // returneaza url-ul curent din chrome
+        //Assert.assertEquals("https://google.com/",url);
 
         //inchide fereastra cu browser-ul
         driver.quit();
