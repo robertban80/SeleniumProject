@@ -39,13 +39,10 @@ public class LoginFailTest {
         WebElement password = driver.findElement(By.name("password"));  // creare un web element pt parola
         password.sendKeys("SuperSecretPassword!gresit");
 
-
-
         //3. apasam pe butonul de Login
 
         WebElement loginButton = driver.findElement(By.className("radius"));
         loginButton.click();
-
 
         // varianta 3 - VERIFICAM UN TEXT DIN PAGINA DE LANDING
         WebElement alert = driver.findElement(By.id("flash-messages"));
