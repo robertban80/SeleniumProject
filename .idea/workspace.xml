@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8039078f-912b-4d08-afa3-05c0fa213537" name="Changes" comment="Lab 31 - Automation 11 - 30.01.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/LoginFailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,26 +70,27 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.login">
-    <configuration name="GoogleTest.testGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginFailTest.loginFail">
+    <configuration name="C:/Users/robert.ban/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.google.*" />
+          <option name="PATTERN" value="com.herokuapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.google" />
-      <option name="MAIN_CLASS_NAME" value="com.google.GoogleTest" />
-      <option name="METHOD_NAME" value="testGoogle" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.LoginFailTest" />
+      <option name="METHOD_NAME" value="loginFail" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginFailTest.loginFail (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +99,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.herokuapp" />
-      <option name="MAIN_CLASS_NAME" value="com.herokuapp.LoginTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.LoginFailTest" />
+      <option name="METHOD_NAME" value="loginFail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginFailTest.loginFail (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.LoginFailTest" />
+      <option name="METHOD_NAME" value="loginFail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginFailTest.loginFail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.LoginFailTest" />
+      <option name="METHOD_NAME" value="loginFail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,9 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginFailTest.loginFail" />
+        <item itemvalue="TestNG.C:/Users/robert.ban/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
+        <item itemvalue="TestNG.LoginFailTest.loginFail (2)" />
+        <item itemvalue="TestNG.LoginFailTest.loginFail (1)" />
         <item itemvalue="TestNG.LoginTest.login" />
-        <item itemvalue="TestNG.LoginTest.login (1)" />
-        <item itemvalue="TestNG.GoogleTest.testGoogle" />
       </list>
     </recent_temporary>
   </component>
@@ -184,10 +223,18 @@
       <option name="project" value="LOCAL" />
       <updated>1675171331347</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lab 31 - Automation 11 - 30.01.2023">
+      <created>1675274973153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675274973153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab 31 - Automation 11 - 30.01.2023&#10;Lab 32 - Automation 12 - 01.02.2023" />
     <MESSAGE value="Lab 31 - Automation 11 - 30.01.2023" />
     <option name="LAST_COMMIT_MESSAGE" value="Lab 31 - Automation 11 - 30.01.2023" />
   </component>
